@@ -1,0 +1,533 @@
+
+
+<?php
+$db_name = 'mysql:localhost;dbname=contact_db';
+$username = 'root';
+$password = '';
+
+$conn = new PDO($db_name, $username, $password);
+
+if(isset($_POST['send']))
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>menu</title>
+
+<!-- font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="frntcss/menustyle.css">
+
+
+</head>
+
+<body>
+
+
+
+
+<!-- header section starts -->
+
+<header> 
+
+
+<a href="#" class="logo"> <i class="fa-solid fa-kitchen-set"></i> food </a>
+
+
+
+<div id="menu-bar" class="fas fa-bars"></div>
+
+
+
+
+<nav class="navbar">
+<a href="home.html">home</a>
+<a href="#speciality">speciality</a>
+<a href="#popular">popular</a>
+<a href="#review">reviews</a>
+<a href="other/cart.html">my orders</a>
+
+
+
+
+</nav>
+
+
+</header>
+
+<!-- header section ends -->
+
+
+
+<!-- home section starts -->
+
+<section class="home" id ="home">
+
+<div class="content">
+
+<h3>food made with love</h3>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas accusamus tempore
+   temporibus rem amet laundantium animi optio voluptatum. natus obcaecati unde porro nostrum
+   ipsum itaque impendit incidunt rem quisquam eos!</p>
+   
+<a href="#speciality" class="btn">order now</a>   
+
+</div>
+
+
+
+<div class="image">
+
+<img alt="" src="frntimages/cap-4.png">
+
+</div>
+
+</section>
+
+
+<!-- home section ends -->
+
+
+
+<!-- speciality section starts -->
+
+
+<section class="speciality" id="speciality">
+
+<h1 class="heading">our <span>speciality</span></h1>
+
+<div class="box-container">
+
+<div class="box">
+
+	<img class="image" alt="" src="frntimages/s-img-7.jpeg">
+	
+<div class="content">
+
+	<img alt="" src="frntimages/s-7.jpeg">
+	
+		<h3>snacks-specials</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas accusamus tempore
+   temporibus rem amet laundantium animi optio voluptatum. natus obcaecati unde porro nostrum
+   ipsum itaque impendit incidunt rem quisquam eos!</p>
+</div>
+
+</div>
+
+
+
+
+<div class="box">
+
+	<img class="image" alt="" src="frntimages/food-6.png">
+	
+<div class="content">
+
+	<img alt="" src="frntimages/s-2.jpeg">
+	
+		<h3>fast food</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas accusamus tempore
+   temporibus rem amet laundantium animi optio voluptatum. natus obcaecati unde porro nostrum
+   ipsum itaque impendit incidunt rem quisquam eos!</p>
+</div>
+
+</div>
+
+
+
+
+
+<div class="box">
+
+	<img class="image" alt="" src="frntimages/s-img-8.png">
+	
+<div class="content">
+
+	<img alt="" src="frntimages/s-8.png" height="200"width="200">
+	
+		<h3>drinks</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas accusamus tempore
+   temporibus rem amet laundantium animi optio voluptatum. natus obcaecati unde porro nostrum
+   ipsum itaque impendit incidunt rem quisquam eos!</p>
+</div>
+
+</div>
+
+
+
+
+
+<div class="box">
+
+	<img class="image" alt="" src="frntimages/s-img-4.png">
+	
+<div class="content">
+
+	<img alt="" src="frntimages/s-4.jpeg">
+	
+		<h3>lunch specials</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas accusamus tempore
+   temporibus rem amet laundantium animi optio voluptatum. natus obcaecati unde porro nostrum
+   ipsum itaque impendit incidunt rem quisquam eos!</p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="box">
+
+	<img class="image" alt="" src="frntimages/s-img-5.png">
+	
+<div class="content">
+
+	<img alt="" src="frntimages/s-5.jpeg">
+	
+		<h3>healthy breakfast</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas accusamus tempore
+   temporibus rem amet laundantium animi optio voluptatum. natus obcaecati unde porro nostrum
+   ipsum itaque impendit incidunt rem quisquam eos!</p>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="box">
+
+	<img class="image" alt="" src="frntimages/s-img-6.png">
+	
+<div class="content">
+
+	<img alt="" src="frntimages/s-6.jpeg">
+	
+		<h3>dinner specials</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas accusamus tempore
+   temporibus rem amet laundantium animi optio voluptatum. natus obcaecati unde porro nostrum
+   ipsum itaque impendit incidunt rem quisquam eos!</p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<!-- speciality section ends -->
+
+
+
+
+
+<!-- review section starts -->
+
+
+
+<section class="review" id="review">
+
+<h1 class="heading"> what people <span>say</span></h1>
+
+<div class="box-container">
+
+	<div class="box">
+	
+		<img alt="" src="frntimages/pic1.PNG" height="200" width="200">
+			
+			<h3>Lucious maine</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="far fa-star"></i>			
+			</div>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam mollitia esse
+			aperiam omnis numqam iste praesentium, voluptatum vitae?</p>
+	
+	</div>
+
+
+
+
+	<div class="box">
+	
+		<img alt="" src="frntimages/pic2.PNG" height="200" width="200">
+			
+			<h3>Nick</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="far fa-star"></i>			
+			</div>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam mollitia esse
+			aperiam omnis numqam iste praesentium, voluptatum vitae?</p>
+	
+	</div>
+
+
+
+
+	<div class="box">
+	
+		<img alt="" src="frntimages/pic3.PNG"  height="200" width="200">
+			
+			<h3>man rick</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="far fa-star"></i>			
+			</div>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam mollitia esse
+			aperiam omnis numqam iste praesentium, voluptatum vitae?</p>
+	
+	</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+<!-- review section sends -->
+
+
+
+
+<section class="order" id="order">
+
+<h1 class="heading"> <span>Have</span> a say </h1>
+
+<div class="row">
+
+	<div class="image">
+	
+		<img alt="" src="frntimages/zab-1.jpg">
+	
+	</div>
+	
+	<form action="">
+	
+	<div class="inputBox">
+		<input type="text" placeholder="name"> 
+		<input type="email" placeholder="email eg sth@.com">
+	</div>
+	
+	<div class="inputBox">
+		<input type="number" placeholder="phone-number(optional)"> 
+		<input type="file" class="boximg" name="image" accept="image/jpg, image/jpeg, image/png, image/webp" placeholder="add image (required)"  >
+	</div>
+	
+	<textarea rows="10" cols="30" placeholder="add experience "></textarea>
+	
+	<input type="submit" value="send message" class="btn">
+	
+	</form>
+	
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+
+
+
+
+ <div class="box-container container">
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>our team</h3>
+         <p>sabrina ndela</p>
+         <p>eddy simpkin</p>
+         <p>abdallah mohamed</p>
+         <p>shukri hassan</p>
+         <p>steve haya</p>
+         <p>lance kiptoo</p>
+         <p>masanta crispus</p>
+         
+      </div>
+      
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>our address</h3>
+         <p>SCI-MASENO - 400104</p>
+      </div>
+
+
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <h3>email address</h3>
+         <p>cis00007@maseno.ac.ke</p>
+         <p>cis00035@maseno.ac.ke</p>
+         <p>cis00003@maseno.ac.ke</p>
+         <p>cis00016@maseno.ac.ke</p>
+         <p>cis00049@maseno.ac.ke</p>
+         <p>cis00034@maseno.ac.ke</p>
+         <p>cis00052@maseno.ac.ke</p>
+      </div>
+
+   </div>
+   
+   
+   
+
+
+
+
+ <div class="credit">&copy; copyright @ <?php echo date('Y'); ?> by <span>Eddys Edits</span>  </div> 
+
+
+
+
+
+
+
+
+<h3 style="margin-left:10px; color:teal; font-family: Courier New, Courier, monospace; ">languages</h3><br>
+
+	<div style="margin-left:50px;" >
+	
+	
+	<div style="background-color:rosybrown; height:8px; width:220px; border-radius:50px" >
+	
+	<div style="background-color:olive; height:8px; width:180px; border-radius:50px 0px 0px 50px;" >
+	
+	<div style="background-color:peru; height:8px; width:140px; border-radius:50px 0px 0px 50px;" >
+	
+	<div style="background-color:tomato; height:8px; width:50px; border-radius:50px 0px 0px 50px;" ></div>
+	</div>
+	</div>
+	</div><br>
+	
+	
+	<table style="color:tomato; ">
+	
+	<tr>
+	<td> <span class="dot" style="background:tomato;"></span>  HTML 25.5% &nbsp;</td> 
+	
+	<td> <span class="dot" style="background:peru; "></span> CSS 40.5% </td>
+	
+	</tr>
+	
+	<tr>
+	
+	<td> <span class="dot" style="background:olive; "></span> php 19% </td>
+	
+	<td> <span class="dot" style="background:rosybrown;"></span> JavaScript 15% </td>
+	
+	</tr>
+	
+	
+	</table>
+	
+	
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link -->
+
+
+<script type="text/javascript" src="frntjs/menujs.js"></script>
+
+</body>
+</html>
